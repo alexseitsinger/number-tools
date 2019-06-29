@@ -20,6 +20,10 @@ ROMAN_TO_INTEGER_MAP = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M
 
 
 def integer_to_roman(integer):
+    """
+    https://stackoverflow.com/questions/42875103/integer-to-roman-number
+    https://stackoverflow.com/questions/33486183/convert-from-numbers-to-roman-notation
+    """
     roman_numeral = ""
     i = 0
     while integer > 0:
@@ -31,6 +35,9 @@ def integer_to_roman(integer):
 
 
 def roman_to_integer(roman_numeral):
+    """
+    https://gist.github.com/kristopherjohnson/f4eca9018c5085fc736b2f29a202b8f8
+    """
     total = 0
     last_value = sys.maxsize
     for char in list(roman_numeral):
