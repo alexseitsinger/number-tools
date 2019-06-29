@@ -1,0 +1,14 @@
+# Directories
+build/
+dist/
+*.egg-info/
+__pycache__/
+
+# Files
+*~
+*.so
+*.egg
+*.py[cod]
+.tox
+.cache
+.env
